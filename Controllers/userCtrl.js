@@ -281,7 +281,7 @@ module.exports = {
 
                                 // Create a new session
                                 const sessionClient = new dialogflow.SessionsClient({
-                                    "keyFilename": "D:/projets/DockerXExpressXReactjs/server/ass-bot-qkum-2f008814628c.json"
+                                    "keyFilename": "../ass-bot-qkum-2f008814628c.json"
                                 }
 
                                 );
