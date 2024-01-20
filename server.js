@@ -1,5 +1,6 @@
 var express = require('express');
 var server = express()
+let fs = require('fs'); 
 var bodyParser = require('body-parser')
 var jsonParser = bodyParser.json()
 var apiRouter = require('./apiRoute').router;

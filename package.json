@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build":"rm -f dist && babel backend && npm install && npm run build",
+    "build": "npm install && npm run build",
     "deploy": "sh deploy.sh"
   },
   "author": "",
@@ -30,6 +30,7 @@
     "multer": "^1.4.5-lts.1",
     "mysql": "^2.18.1",
     "mysql2": "^3.6.0",
+    "rm": "^0.1.8",
     "sequelize": "^6.32.1",
     "typescript": "^5.3.3",
     "uuid": "^9.0.1"
