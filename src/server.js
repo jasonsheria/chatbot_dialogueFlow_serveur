@@ -2,7 +2,7 @@ var express = require('express');
 var server = express()
 var bodyParser = require('body-parser')
 var jsonParser = bodyParser.json()
-var apiRouter = require('./apiRoute').router;
+var apiRouter = require('../apiRoute').router;
 var cors = require('cors');
 const path = require('path')
 // create application/x-www-form-urlencoded parser
